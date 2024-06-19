@@ -13,9 +13,8 @@ const NavBar = () => (
       <Link as={RouterLink} to="/register" display="flex" alignItems="center">
         <Text ml={2}>Register</Text>
       </Link>
-      <Link href="#webdev" display="flex" alignItems="center">
-        <FaLaptopCode />
-        <Text ml={2}>Web Development</Text>
+      <Link as={RouterLink} to="/create-post" display="flex" alignItems="center">
+        <Text ml={2}>Create Post</Text>
       </Link>
       <Link href="#database" display="flex" alignItems="center">
         <FaDatabase />
